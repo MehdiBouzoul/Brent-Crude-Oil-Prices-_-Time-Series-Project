@@ -29,16 +29,16 @@ The project is directly relevant to Algeria: as an OPEC member whose national bu
 
 The project follows the full pipeline taught in the TSAC course:
 
-| Step | Method | Course reference |
-|------|--------|-----------------|
-| 1. Exploratory analysis | Time series plot, moving average smoother | Problem Sheet 1, Q3 |
-| 2. Variance stabilisation | Log transformation | Problem Sheet 1, Q6 |
-| 3. Stationarity testing | ADF test, KPSS test, first differencing | Problem Sheet 2, Q3 |
-| 4. Model identification | ACF, PACF of log-returns | Problem Sheet 3, Q4b |
-| 5. Model fitting | `sarima()`, `Arima()`, AIC/BIC comparison | Problem Sheet 3, Q4d |
-| 6. Diagnostics | Ljung-Box, QQ plot, ARCH test | Problem Sheet 2, Q5h |
-| 7. Forecasting | 52-week ahead with prediction intervals | Project brief |
-| 8. Geopolitical shock | War premium = actual − forecast | Discussion |
+| Step | Method |
+|------|--------|
+| 1. Exploratory analysis | Time series plot, moving average smoother |
+| 2. Variance stabilisation | Log transformation |
+| 3. Stationarity testing | ADF test, KPSS test, first differencing |
+| 4. Model identification | ACF, PACF of log-returns |
+| 5. Model fitting | `sarima()`, `Arima()`, AIC/BIC comparison |
+| 6. Diagnostics | Ljung-Box, QQ plot, ARCH test |
+| 7. Forecasting | 52-week ahead with prediction intervals |
+| 8. Geopolitical shock | War premium = actual − forecast |
 
 ---
 
