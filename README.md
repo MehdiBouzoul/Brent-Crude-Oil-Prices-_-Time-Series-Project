@@ -1,6 +1,6 @@
 # Geopolitical Shocks and Energy Volatility
 ### A Time Series Analysis of Brent Crude Oil Prices (2000–2024)
-**TSAC Individual Project — ENSIA 2024/2025**
+**TSAC Individual Project — ENSIA 2025/2026**
 **Author: Mehdi BOUZOUL**
 
 ---
