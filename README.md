@@ -75,8 +75,7 @@ Data is stored in `/data` and loaded directly in the notebook via Google Drive â
 
 **Option 2 â€” RStudio local**
 1. Install required packages (see first code cell)
-2. Replace Drive download links with local CSV paths
-3. Run all chunks
+2. Run all chunks
 
 ### Required R packages
 ```r
