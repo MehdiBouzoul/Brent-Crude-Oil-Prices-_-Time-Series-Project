@@ -66,6 +66,33 @@ Data is stored in `/data` and loaded directly in the notebook via Google Drive �
 
 ---
 
+## Background: Crude Oil Benchmarks and Dataset Context
+
+Crude oil is not a single commodity — dozens of varieties are traded globally, differing in quality and geographic origin. Understanding where Brent sits among them clarifies why it was chosen as the basis for this analysis.
+
+**Main global benchmarks**
+
+| Benchmark | Origin | Character | Primary market |
+|-----------|--------|-----------|----------------|
+| Brent Crude | North Sea | Light, low sulfur, seaborne | Global reference |
+| WTI (West Texas Intermediate) | USA | Very light, very low sulfur | North American market |
+| Dubai Crude | Gulf | Heavier, higher sulfur | Asian benchmark |
+| Saharan Blend | Algeria | Very light, very low sulfur, high quality | Mediterranean / European |
+
+**Why prices differ across benchmarks**
+
+Two factors drive the spread between benchmarks. First, quality: light crude with low sulfur content (called "sweet") requires less refining and commands a premium; heavy, high-sulfur crude ("sour") trades at a discount. Second, location and transport: seaborne crudes like Brent have global access and reflect the world price, while landlocked crudes like WTI face regional infrastructure constraints that can push them above or below the global level.
+
+**Pricing logic**
+
+Brent serves as the global baseline. All other crude grades are priced as Brent plus or minus a differential that reflects their quality and delivery location. Approximately 80% of the world's oil is priced with reference to Brent, making it the most representative series for a global oil market study.
+
+**Why Brent and not Saharan Blend for this project**
+
+Algeria's own export crude — the Saharan Blend — is priced directly off Brent with a small quality premium (it is slightly lighter and sweeter). Since Saharan Blend has no continuous long public time series of its own, Brent is the correct and standard proxy for studying the price dynamics that drive Algerian hydrocarbon revenues. The two series move together with near-perfect correlation at weekly frequency.
+
+---
+
 ## How to Run
 
 **Option 1 — Google Colab (recommended)**
@@ -115,4 +142,4 @@ install.packages(c(
 
 ---
 
-*TSAC — ENSIA 2024/2025*
+*TSAC — ENSIA 2025/2026*
